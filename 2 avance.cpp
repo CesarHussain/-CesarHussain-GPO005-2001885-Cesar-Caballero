@@ -121,7 +121,7 @@ int main() {
 				cout << "Costo unitario:" << NumeroDeArticulo[i].costo << endl;
 				cout << "Total(Pesos mexicanos):" << endl;
 				cout << NumeroDeArticulo[i].costototal << endl;
-				cout << "La cita a sido modificada exitosamente";
+				cout << "El articulo a sido modificada exitosamente";
 				system("pause");
 				system("cls");
 			}
@@ -153,7 +153,7 @@ int main() {
 			{
 				cout << "El juego que fue ingresado en" << i + 1 << endl;
 				cout << "Nombre del Videojuego: " << NumeroDeArticulo[i].videojuego << endl;
-				cout << "Año de lanzamiento:" << NumeroDeArticulo[i].ano << endl;
+				cout << "AÃ±o de lanzamiento:" << NumeroDeArticulo[i].ano << endl;
 				cout << "Clasificacion del Videojuego:" << NumeroDeArticulo[i].Clasificacion << endl;
 				cout << "Descripcion delvideojuego:" << NumeroDeArticulo[i].videojuego << endl;
 				cout << "Genero del Videojuego:" << NumeroDeArticulo[i].CP << endl;
